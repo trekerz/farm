@@ -166,7 +166,6 @@
 
 /*两个土壤标签*/
 .listSoil1,.listSoil2{
-	position: relative;
 	border: #546E7A solid 1px;
 	color: #FFFFFF !important;
 	background-color: #78909C !important;
@@ -174,55 +173,31 @@
 	font-weight: bold;
 }
 
-.listSoilDegree .aui-label{
-	position: absolute;
+.listSoilDegree{
 	width: 70px;
 	height: 40px;
-	margin-left: -130px;
-	margin-top: -20px;
 	border-radius: 5px;
 	background-color: #26C6DA;
 	color: #FFFFFF;
 	font-size: 30px;
 }
 
-.listSoilDegree .aui-label span{
-	display: block;
-	margin-left: -8px;
-	line-height: 22px;
+.listSoilDegree span{
+	margin-left: 3px;
 }
 
-.listSoilPercent .aui-label{
-	position: absolute;
+.listSoilPercent {
 	width: 50px;
 	height: 40px;
-	margin-left: -170px;
-	margin-top: -20px;
+	margin-right: 10px;
 	border-radius: 5px;
 	background-color: #26C6DA;
 	color: #FFFFFF !important;
 	font-size: 30px;
 }
 
-.listSoilPercent .aui-label span{
-	display: block;
-	margin-left: -2px;
-	line-height: 22px;
-}
-
-.listSoilDegree .listSoilUnit span{
-	position: absolute;
-	margin-top: -9px;
-	margin-left: -58px;
-	line-height: 20px;
-}
-
-.listSoilPercent .listSoilUnit span{
-	position: absolute;
-	font-family: "Microsoft YaHei";
-	margin-top: -9px;
-	margin-left: -117px;
-	line-height: 20px;
+.listSoilPercent span{
+	margin-left: 8px;
 }
 
 
