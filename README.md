@@ -4,8 +4,6 @@
 
 
 
-
-
 # 版本0.1.1(second commit)
 
 ### 修改：上传/css、/image、/script、/index.html
@@ -26,8 +24,19 @@
 
 
 
+
+
 # 版本0.1.3
 
 ### 修改：上传/index.html、/css/style.css
 
 1. 修改四个空气项的布局，使其更好地适应手机端显示。（宽度1080以下的手机使用小字体布局）
+
+
+
+# 版本0.1.4
+
+### 修改：上传/index.html、/script/refreshData.js、/script/refreshJSON.php
+
+1. 在两个土壤后面添加空div使整体前移。
+2. 加入后四项的数据刷新，并调整refreshData.js的代码结构。
