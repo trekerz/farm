@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,user-scalable=0,width=device-width,initial-scale=1.0"/>
+	<meta name="format-detection" content="telephone=no,email=no,date=no,address=no">
+
+	<title>farm</title>
+
+	<link rel="stylesheet" type="text/css" href="css/aui.2.0.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<!-- 头部 -->
+	<header class="aui-bar aui-bar-nav aui-bar-light" id="aui-header">
+		<a href="#" class="navButton">
+			<div class="navButtonBorder">
+				<div class="navButtonTxt">全部分组</div>
+			</div>
+		</a>
+		<a href="#" class="navButton">
+			<div class="navButtonBorder">
+				<div class="navButtonTxt">全部大棚</div>
+			</div>
+		</a>
+		<a href="javascript:void(0);" class="navIcon" id="navIcon"></a>
+		<!-- <li class="navIcon" id="navIcon"></li> -->
+	</header>
+
+
+<!-- 中间内容部分 -->
+	<div class="aui-content aui-content-padded allContent">
+		<ul class="aui-list aui-list-in">
+			<li class="aui-list-item aui-list-item-inner listTitle">大棚一&nbsp;(分组一)&nbsp;&nbsp;&nbsp;蔬菜1</li>
+
+			<li class="aui-list-item aui-list-item-inner listSun">
+				<div class="listSunTitle">日照</div>
+				<div class="listSunDegree" id="valueSun">48.5</div>
+				<div class="listSunUnit">Klux</div>
+			</li>
+
+			<li class="aui-list-item aui-list-item-inner listCarbonD">
+				<div class="listCarbonDTitle">CO<sub>2</sub></div>
+				<div class="listCarbonDDegree" id="valueCarbonD">10.2</div>
+				<div class="listCarbonDUnit">PPM</div>
+			</li>
+
+			<li class="aui-list-item listAirCondition">
+				<div class="aui-list-item-inner listAir1">
+					<div class="listAirTitle">空气1</div>
+					<div class="listAirDegree">
+						<span class="aui-label"><span id="valueAir1Degree">30.7</span></span>
+						<span class="listAirUnit"><span>℃</span></span>
+					</div>
+					<div class="listAirPercent">
+						<span class="aui-label"><span id="valueAir1Percent">75</span></span>
+						<span class="listAirUnit"><span>%</span></span>
+					</div>
+				</div>
+				<div class="aui-list-item-inner listAir2">
+					<div class="listAirTitle">空气2</div>
+					<div class="listAirDegree">
+						<span class="aui-label"><span id="valueAir2Degree">30.7</span></span>
+						<span class="listAirUnit"><span>℃</span></span>
+					</div>
+					<div class="listAirPercent">
+						<span class="aui-label"><span id="valueAir2Percent">75</span></span>
+						<span class="listAirUnit"><span>%</span></span>
+					</div>
+				</div>
+			</li>
+			<li class="aui-list-item listAirCondition">
+				<div class="aui-list-item-inner listAir3">
+					<div class="listAirTitle">空气3</div>
+					<div class="listAirDegree">
+						<span class="aui-label"><span id="valueAir3Degree">30.7</span></span>
+						<span class="listAirUnit"><span>℃</span></span>
+					</div>
+					<div class="listAirPercent">
+						<span class="aui-label"><span id="valueAir3Percent">75</span></span>
+						<span class="listAirUnit"><span>%</span></span>
+					</div>
+				</div>
+				<div class="aui-list-item-inner listAir4">
+					<div class="listAirTitle">空气4</div>
+					<div class="listAirDegree">
+						<span class="aui-label"><span id="valueAir4Degree">30.7</span></span>
+						<span class="listAirUnit"><span>℃</span></span>
+					</div>
+					<div class="listAirPercent">
+						<span class="aui-label"><span id="valueAir4Percent">75</span></span>
+						<span class="listAirUnit"><span>%</span></span>
+					</div>
+				</div>
+			</li>
+
+			<li class="aui-list-item aui-list-item-inner listSoil1">
+				<div class="listSoilTitle">土壤1</div>
+				<div class="listSoilDegree">
+					<span class="aui-label"><span id="valueSoil1Degree">30.7</span></span>
+					<span class="listSoilUnit"><span>℃</span></span>
+				</div>
+				<div class="listSoilPercent">
+					<span class="aui-label"><span id="valueSoil1Percent">75</span></span>
+					<span class="listSoilUnit"><span>%</span></span>
+				</div>
+			</li>
+			<li class="aui-list-item aui-list-item-inner listSoil2">
+				<div class="listSoilTitle">土壤2</div>
+				<div class="listSoilDegree">
+					<span class="aui-label"><span id="valueSoil2Degree">30.7</span></span>
+					<span class="listSoilUnit"><span>℃</span></span>
+				</div>
+				<div class="listSoilPercent">
+					<span class="aui-label"><span id="valueSoil2Percent">75</span></span>
+					<span class="listSoilUnit"><span>%</span></span>
+				</div>
+			</li>
+
+			<li class="aui-list-item aui-list-item-inner listOther">
+				<div class="listOtherTitle">窗机</div>
+				<div class="listOtherItem">
+					<span class="listOtherSN"><span>1</span></span>
+					<span class="aui-label unknown"><span id="valueOther11">未知</span></span>
+				</div>
+				<div class="listOtherItem">
+					<span class="listOtherSN"><span>2</span></span>
+					<span class="aui-label unknown"><span id="valueOther12">未知</span></span>
+				</div>
+				<div class="listOtherItem">
+					<span class="listOtherSN"><span>3</span></span>
+					<span class="aui-label closed"><span id="valueOther13">关闭</span></span>
+				</div>
+				<div class="listOtherItem">
+					<span class="listOtherSN"><span>4</span></span>
+					<span class="aui-label opened"><span id="valueOther14">全开</span></span>
+				</div>
+			</li>
+			<li class="aui-list-item aui-list-item-inner listOther">
+				<div class="listOtherTitle">卷帘</div>
+				<div class="listOtherItem">
+					<span class="listOtherSN"><span>1</span></span>
+					<span class="aui-label unknown"><span id="valueOther21">未知</span></span>
+				</div>
+				<div class="listOtherItem">
+					<span class="listOtherSN"><span>2</span></span>
+					<span class="aui-label unknown"><span id="valueOther22">未知</span></span>
+				</div>
+				<div></div>
+				<div></div>
+			</li>
+			<li class="aui-list-item aui-list-item-inner listOther">
+				<div class="listOtherTitle">风机</div>
+				<div class="listOtherItem">
+					<span class="listOtherSN"><span>1</span></span>
+					<span class="aui-label unknown"><span id="valueOther31">未知</span></span>
+				</div>
+				<div class="listOtherItem">
+					<span class="listOtherSN"><span>2</span></span>
+					<span class="aui-label unknown"><span id="valueOther32">未知</span></span>
+				</div>
+				<div></div>
+				<div></div>
+			</li>
+			<li class="aui-list-item aui-list-item-inner listOther">
+				<div class="listOtherTitle">滴灌</div>
+				<div class="listOtherItem">
+					<span class="listOtherSN hideSN"><span>1</span></span>
+					<span class="aui-label unknown"><span id="valueOther41">未知</span></span>
+				</div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</li>
+
+			<a href="#" class="aui-list-item aui-list-item-inner listButton"><div></div><div>操作</div><div></div></a>
+			<br/><br/><br/>
+		</ul>
+	</div>
+
+
+<!-- 底部导航栏 -->
+	<footer class="aui-bar aui-bar-tab" id="footer">
+    	<a href="#" class="aui-bar-tab-item footerButton activedFooterButton" tapmode>全景</a>
+    	<a href="#" class="aui-bar-tab-item footerButton" tapmode>大棚</a>
+    	<a href="#" class="aui-bar-tab-item footerButton" tapmode>设置</a>
+	</footer>
+
+
+</body>
+<script src="script/aui-scroll.js"></script>
+<script src="script/scrollMore.js"></script>
+<script src="script/refreshData.js"></script>
+</html>

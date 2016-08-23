@@ -1,0 +1,288 @@
+@charset "utf-8";
+
+
+/*头部*/
+.navButton{
+	width: 106px;
+	height: 30px;
+	display: block;
+	float: left;
+	margin-left: 12px;
+	margin-right: 20px;
+	margin-top: 11px;
+	border: #CCCCCC solid 1px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	background: url(../image/icon/select.jpg) 90px center no-repeat;
+	overflow:hidden;
+}
+
+.navButtonTxt{
+	left:0px;
+	margin-left: -28px;
+	line-height: 27px;
+	font-size: 15px;
+	font-family: "Microsoft YaHei";
+	color:#888888;
+}
+
+.navIcon{
+	width: 50px;
+	height: 50px;
+	background: url(../image/icon/refresh.jpg) right center no-repeat;
+	float: right;
+	margin-right: 20px;
+}
+
+
+/*底部导航栏*/
+.footerButton{
+	border:#CCCCCC solid 1px;
+	color: #000000;
+	font-size: 1rem !important;
+	font-family: "Microsoft YaHei";
+}
+
+.activedFooterButton{
+	background-color: #26A69A;
+	color: #FFFFFF;
+}
+
+
+/*内容区表头*/
+.listTitle{
+	height: 65px;
+	background-color: #26A69A !important;
+	color: #FFFFFF !important;
+	font-family: "simHei";
+	font-size: 24px;
+	font-weight: bold;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+}
+
+
+/*内容区日照*/
+.listSun{
+	background-color: #FF7043 !important;
+	color: #FFFFFF !important;
+	font-family: "Arial";
+	font-weight: bold;
+}
+
+.listSunDegree{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: -20px;
+}
+
+
+/*内容区二氧化碳*/
+.listCarbonD{
+	background-color: #2BAF2B !important;
+	color: #FFFFFF !important;
+	font-family: "Arial";
+	font-weight: bold;
+}
+
+.listCarbonDDegree{
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: -20px;
+}
+
+
+/*四个空气标签*/
+.listAir1,.listAir2,.listAir3,.listAir4{
+	position: relative;
+	border: #00ACC1 solid 1px;
+	background-color: #26C6DA;
+	font-family: "simHei";
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.listAir1,.listAir3{
+	margin-left: -19px;
+}
+
+.listAirTitle{
+	position: absolute;
+	margin-left: 17px;
+	margin-top: 12px;
+}
+
+.listAirDegree .aui-label{
+	position: absolute;
+	width: 70px;
+	height: 40px;
+	margin-left: 90px;
+	margin-top: -20px;
+	border-radius: 5px;
+	background-color: #78909C;
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+.listAirDegree .aui-label span{
+	display: block;
+	margin-left: -8px;
+	line-height: 22px;
+}
+
+.listAirPercent .aui-label{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	margin-left: -60px;
+	margin-top: -20px;
+	border-radius: 5px;
+	background-color: #78909C;
+	color: #FFFFFF !important;
+	font-size: 30px;
+}
+
+.listAirPercent .aui-label span{
+	display: block;
+	margin-left: -2px;
+	line-height: 22px;
+}
+
+.listAirDegree .listAirUnit span{
+	position: absolute;
+	margin-top: -9px;
+	margin-left: 162px;
+	line-height: 20px;
+}
+
+.listAirPercent .listAirUnit span{
+	position: absolute;
+	font-family: "Microsoft YaHei";
+	margin-top: -9px;
+	margin-left: -8px;
+	line-height: 20px;
+}
+
+
+/*两个土壤标签*/
+.listSoil1,.listSoil2{
+	position: relative;
+	border: #546E7A solid 1px;
+	color: #FFFFFF !important;
+	background-color: #78909C !important;
+	font-family: "simHei";
+	font-weight: bold;
+}
+
+.listSoilDegree .aui-label{
+	position: absolute;
+	width: 70px;
+	height: 40px;
+	margin-left: -130px;
+	margin-top: -20px;
+	border-radius: 5px;
+	background-color: #26C6DA;
+	color: #FFFFFF;
+	font-size: 30px;
+}
+
+.listSoilDegree .aui-label span{
+	display: block;
+	margin-left: -8px;
+	line-height: 22px;
+}
+
+.listSoilPercent .aui-label{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	margin-left: -170px;
+	margin-top: -20px;
+	border-radius: 5px;
+	background-color: #26C6DA;
+	color: #FFFFFF !important;
+	font-size: 30px;
+}
+
+.listSoilPercent .aui-label span{
+	display: block;
+	margin-left: -2px;
+	line-height: 22px;
+}
+
+.listSoilDegree .listSoilUnit span{
+	position: absolute;
+	margin-top: -9px;
+	margin-left: -58px;
+	line-height: 20px;
+}
+
+.listSoilPercent .listSoilUnit span{
+	position: absolute;
+	font-family: "Microsoft YaHei";
+	margin-top: -9px;
+	margin-left: -117px;
+	line-height: 20px;
+}
+
+
+/*四个其它标签*/
+.listOther{
+	position: relative;
+	border: #BBBBBB solid 1px;
+	color: #000000 !important;
+	background-color: #FFFFFF !important;
+	font-family: "simHei";
+	font-weight: bold;
+}
+
+.listOtherSN span{
+	position: absolute;
+	margin-top: 0px;
+	margin-left: -70px;
+	line-height: 5px;
+}
+
+.listOtherItem .aui-label{
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	margin-left: -50px;
+	margin-top: -20px;
+	border-radius: 5px;
+	background-color: #26C6DA;
+	color: #FFFFFF;
+	font-size: 22px;
+}
+
+.listOtherItem .aui-label span{
+	display: block;
+	margin-left: -6px;
+	line-height: 28px;
+}
+
+.unknown{
+	background-color: #FFA726 !important;
+}
+.closed{
+	background-color: #FF7043 !important;
+}
+.opened{
+	background-color: #2BAF2B !important;
+}
+.hideSN{
+	visibility: hidden;
+}
+
+/*菜单底部按钮*/
+.listButton{
+	height: 65px;
+	text-align: center;
+	background-color: #2BAF2B !important;
+	color: #FFFFFF !important;
+	font-family: "simHei";
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
