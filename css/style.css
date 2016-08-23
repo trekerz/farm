@@ -112,55 +112,112 @@
 	margin-top: 12px;
 }
 
-.listAirDegree .aui-label{
-	position: absolute;
-	width: 70px;
-	height: 40px;
-	margin-left: 90px;
-	margin-top: -20px;
-	border-radius: 5px;
-	background-color: #78909C;
-	color: #FFFFFF;
-	font-size: 30px;
+@media screen and (min-width: 541px){ /*手机主流1080宽度对应540px*/
+	.listAirDegree .aui-label{
+		position: absolute;
+		width: 70px;
+		height: 40px;
+		margin-left: 90px;
+		margin-top: -20px;
+		border-radius: 5px;
+		background-color: #78909C;
+		color: #FFFFFF;
+		font-size: 30px;
+	}
+
+	.listAirDegree .aui-label span{
+		display: block;
+		margin-left: -8px;
+		line-height: 22px;
+	}
+
+	.listAirPercent .aui-label{
+		position: absolute;
+		width: 50px;
+		height: 40px;
+		margin-left: -60px;
+		margin-top: -20px;
+		border-radius: 5px;
+		background-color: #78909C;
+		color: #FFFFFF !important;
+		font-size: 30px;
+	}
+
+	.listAirPercent .aui-label span{
+		display: block;
+		margin-left: -2px;
+		line-height: 22px;
+	}
+
+	.listAirDegree .listAirUnit span{
+		position: absolute;
+		margin-top: -9px;
+		margin-left: 162px;
+		line-height: 20px;
+	}
+
+	.listAirPercent .listAirUnit span{
+		position: absolute;
+		font-family: "Microsoft YaHei";
+		margin-top: -9px;
+		margin-left: -8px;
+		line-height: 20px;
+	}
 }
 
-.listAirDegree .aui-label span{
-	display: block;
-	margin-left: -8px;
-	line-height: 22px;
-}
+@media screen and (max-width: 540px){ /*手机主流1080宽度对应540px*/
+	.listAirDegree .aui-label{
+		position: absolute;
+		width: 35px;
+		height: 20px;
+		margin-left: 73px;
+		margin-top: -8px;
+		border-radius: 5px;
+		background-color: #78909C;
+		color: #FFFFFF;
+		font-size: 15px;
+	}
 
-.listAirPercent .aui-label{
-	position: absolute;
-	width: 50px;
-	height: 40px;
-	margin-left: -60px;
-	margin-top: -20px;
-	border-radius: 5px;
-	background-color: #78909C;
-	color: #FFFFFF !important;
-	font-size: 30px;
-}
+	.listAirDegree .aui-label span{
+		display: block;
+		margin-left: -3px;
+		line-height: 12px;
+	}
 
-.listAirPercent .aui-label span{
-	display: block;
-	margin-left: -2px;
-	line-height: 22px;
-}
+	.listAirPercent .aui-label{
+		position: absolute;
+		width: 20px;
+		height: 20px;
+		margin-left: -20px;
+		margin-top: -8px;
+		border-radius: 5px;
+		background-color: #78909C;
+		color: #FFFFFF !important;
+		font-size: 15px;
+	}
 
-.listAirDegree .listAirUnit span{
-	position: absolute;
-	margin-top: -9px;
-	margin-left: 162px;
-	line-height: 20px;
-}
+	.listAirPercent .aui-label span{
+		display: block;
+		margin-left: -4px;
+		line-height: 12px;
+	}
 
-.listAirPercent .listAirUnit span{
-	position: absolute;
-	font-family: "Microsoft YaHei";
-	margin-top: -9px;
-	margin-left: -8px;
-	line-height: 20px;
+	.listAirDegree .listAirUnit span{
+		position: absolute;
+		font-size: 15px;
+		margin-top: -7px;
+		margin-left: 108px;
+		line-height: 20px;
+	}
+
+	.listAirPercent .listAirUnit span{
+		position: absolute;
+		font-size: 15px;
+		font-family: "Microsoft YaHei";
+		margin-top: -7px;
+		margin-left: 1px;
+		line-height: 20px;
+	}
 }
 
 
@@ -214,15 +271,15 @@
 .listOtherSN span{
 	position: absolute;
 	margin-top: 0px;
-	margin-left: -70px;
+	margin-left: -50px;
 	line-height: 5px;
 }
 
 .listOtherItem .aui-label{
 	position: absolute;
-	width: 50px;
+	width: 45px;
 	height: 40px;
-	margin-left: -50px;
+	margin-left: -35px;
 	margin-top: -20px;
 	border-radius: 5px;
 	background-color: #26C6DA;
@@ -232,7 +289,7 @@
 
 .listOtherItem .aui-label span{
 	display: block;
-	margin-left: -6px;
+	margin-left: -8px;
 	line-height: 28px;
 }
 
